@@ -1,6 +1,7 @@
 import React from "react";
 import SearchTodo from "./SearchTodo";
 import TodoInput from "./TodoInput";
+import Todo from "./Todo";
 
 
 function TodoWrapper() {
@@ -9,6 +10,9 @@ function TodoWrapper() {
         < TodoInput />
 
         < SearchTodo />
+
+        < Todo />
+
         </div>
 
 
