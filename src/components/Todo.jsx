@@ -3,11 +3,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons/faTrash";
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons";
 
-function Todo () {
+function Todo ({id, task}) {
+
+    
     return (
         <div className="todo-list border border-gray-300 rounded-lg mt-10">
             <div className="todo-title flex items-center justify-between p-4">
-                <p>Schedule team meeting for discussion on the new project</p>
+                <p>{task}</p>
 
                 <div className="todo-icons flex items-center gap-1.5">
                     <button className="p-1.5 border cursor-pointer border-gray-400 rounded-md text-sm">
