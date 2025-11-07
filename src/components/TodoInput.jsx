@@ -24,7 +24,7 @@ function TodoInput ({addTodo}) {
                 value={value}
                 onChange={(e) => setValue(e.target.value)} 
                 placeholder="Enter a new task...." 
-                className="border  border-gray-300 w-[780px] py-2 px-3 text-[16px] rounded-lg outline-none"/>
+                className="border  border-gray-300 w-[460px] py-2 px-3 text-[16px] rounded-lg outline-none"/>
                 <button className="border px-5 py-2 rounded-lg bg-[#636ae8]
                  text-white cursor-pointer "
                  onClick={handleTodo}>

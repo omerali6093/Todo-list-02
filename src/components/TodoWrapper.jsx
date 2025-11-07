@@ -20,6 +20,10 @@ function TodoWrapper() {
 
 
     console.log("todos =>", todos);
+
+    const deleteTodo = (id) => {
+        setTodo(todos.filter((todo) => todo.id !== id));
+    }
     
 
 
@@ -34,6 +38,7 @@ function TodoWrapper() {
             <Todo 
             id={todo.id}
             task={todo.task}
+            deleteTodo={deleteTodo}
             />
         )
         )}
